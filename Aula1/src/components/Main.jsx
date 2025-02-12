@@ -1,20 +1,16 @@
-
+import ItemList from "./ItemList";
+import { artistArray } from "../assets/database/artists";
+import { songsArray } from "../assets/database/songs";
 
 const Main = () => {
   return (
     <div className="main">
-        <div className="main__texts">
-            <h2>Artistas populares</h2>
 
-            <a href="/"  className="main__link">
-                Mostrar mais 
-            </a>
+      <ItemList title="Artistas" itens={10} array={artistArray} path='/artists' idPath='/artist' />
 
-        </div>
 
+      <ItemList title="Músicas" itens={20} array={songsArray} path='/songs' idPath='/song'/>
     </div>
-
-
   );
 };
 
