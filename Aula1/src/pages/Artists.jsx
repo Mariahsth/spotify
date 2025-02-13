@@ -1,7 +1,9 @@
+import Main from "../components/Main";
+
 const Artists = () => {
 
     return (
-        <div></div>
+        <Main type="artists"/>
     )
 };
 
