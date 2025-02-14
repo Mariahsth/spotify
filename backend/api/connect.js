@@ -1,5 +1,4 @@
 import { MongoClient } from "mongodb";
-import 'dotenv/config';
  
 
 const URI="mongodb+srv://admin:admin123@cluster1.rw4pc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1";
