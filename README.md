@@ -22,7 +22,13 @@ Projeto full-stack de aplicativo web que permite acessar e ouvir as principais m
 * Vite
 * Eslint
 
-
+## 🔨 Recursos do aplicativo:  
+`Acessar artistas e músicas populares`  
+`Acessar albuns de cada artista`  
+`Acessar player da música escolhida`  
+`Reproduzir e pausar música desejada`  
+`Seguir para a póxima música ou para a anterior`  
+`Reproduzir música no modo aleatório`  
 
 
 <a href="https://spotify-o6op.onrender.com/"> Link do projeto <a/>
